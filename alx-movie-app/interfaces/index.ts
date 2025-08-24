@@ -6,11 +6,11 @@ export interface ComponentProps {
 
 export interface ButtonProps {
   title: string
-  action?: () => void
+  action?: () => void // 'action' can be optional
 }
 
 export interface MovieProps {
-  id?: string
+  id?: string // 'id' can be optional
   posterImage: string
   releaseYear: string
   title: string
